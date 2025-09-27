@@ -5,6 +5,7 @@
   ],
   "routes": [
     { "src": "/api/seed-shop", "dest": "/api/seed-shop.js" },
+    { "src": "/images/(.*)", "dest": "/public/images/$1" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
